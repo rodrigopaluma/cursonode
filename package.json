@@ -1,0 +1,31 @@
+{
+  "name": "curso-nodejs-hcode",
+  "version": "1.0.0",
+  "description": "Curso NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigopaluma/curso-nodejs-hcode.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "express",
+    "fs",
+    "path",
+    "url",
+    "mongodb",
+    "udp",
+    "crypto"
+  ],
+  "author": "Rodrigo Paluma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigopaluma/curso-nodejs-hcode/issues"
+  },
+  "homepage": "https://github.com/rodrigopaluma/curso-nodejs-hcode#readme"
+}

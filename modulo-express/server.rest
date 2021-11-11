@@ -1,0 +1,23 @@
+### GET admin
+GET http://127.0.0.1:3000/admin HTTP/1.1
+### GET admin com ID
+GET http://127.0.0.1:3000/admin/204 HTTP/1.1
+### acessando via POST
+POST http://127.0.0.1:3000/admin
+Content-Type: application/json
+
+{
+    "login": "rodrigopaluma",
+    "senha": "lba5498"
+}
+### acessando via PATCH
+PATCH http://127.0.0.1:3000/admin/250
+### acessando via PUT
+PUT http://127.0.0.1:3000/admin/250 HTTP/1.1
+### acessando via DELETE
+DELETE http://127.0.0.1:3000/admin/250 HTTP/1.1
+
+### GET Usuarios
+GET http://127.0.0.1:3000/usuarios HTTP/1.1
+### GET Usuario ID
+GET http://127.0.0.1:3000/usuarios/550
